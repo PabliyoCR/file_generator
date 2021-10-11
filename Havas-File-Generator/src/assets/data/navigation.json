@@ -1,0 +1,27 @@
+[
+  {
+    "path": "",
+    "links": [
+      {
+        "name": "Setting Up SCSS",
+        "path": "setting-up-scss",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "path": "/setting-up-scss",
+    "links": [
+      {
+        "name": "Bootstrap",
+        "path": "/bootstrap",
+        "icon": ""
+      },
+      {
+        "name": "Fonts",
+        "path": "/fonts",
+        "icon": ""
+      }
+    ]
+  }
+]

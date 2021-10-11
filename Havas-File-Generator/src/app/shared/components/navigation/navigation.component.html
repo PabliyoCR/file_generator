@@ -1,0 +1,10 @@
+<ul>
+  <li *ngIf="currentPath">
+    <a [routerLink]="currentPath.substring(0, currentPath.lastIndexOf('/'))"
+      >..</a
+    >
+  </li>
+  <li *ngFor="let link of links">
+    <a [routerLink]="currentPath + link.path" [innerHTML]="link.name"></a>
+  </li>
+</ul>
